@@ -1,0 +1,76 @@
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: #d0d0d0;
+        color: #ffffff;
+        border: solid #d0d0d0 10px;
+    }
+
+    .boutonStyle1 {
+        border: solid #ffffff 2px;
+        padding: 10px;
+        width: 20%;
+        height: 20%;
+        float: left;
+        margin-right: 9%;
+    }
+
+    .contenues {
+        width: 100%;
+        height: 100%;
+    }
+
+    .case1 {
+        position: relative;
+        background: #35bc7a;
+        width: 38%;
+        height: 150px;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 5%;
+    }
+
+    .case2 {
+        position: absolute;
+        top: 10px;
+        left: 40%;
+        width: 12%;
+        height: 250px;
+        background: #ff9e00 ;
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-bottom: 1%;
+    }
+
+    /*
+    .contenues {
+        margin: 1% 1% 1% 1%;
+    }
+
+    .boite1 {
+        width: 60%;
+        height: 100%;
+    }
+
+    .boite2 {
+        position: absolute;
+        right: 1%;
+        top: 0;
+        height: 100%;
+        width: 40%;
+    }
+
+    .ligne1 {
+        width: 100%;
+        height: 33%;
+    }
+
+    .case1 {
+        background: #35bc7a;
+        width: 58%;
+        height: 230px;
+        padding: 4% 4%;
+    }
+
+    */
