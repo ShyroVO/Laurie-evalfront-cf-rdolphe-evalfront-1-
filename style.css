@@ -1,76 +1,173 @@
 
+
     body {
         padding: 0;
         margin: 0;
-        background: #d0d0d0;
-        color: #ffffff;
-        border: solid #d0d0d0 10px;
     }
 
-    .boutonStyle1 {
-        border: solid #ffffff 2px;
-        padding: 10px;
-        width: 20%;
-        height: 20%;
-        float: left;
-        margin-right: 9%;
+
+/* Block de Contenues */
+    .contenue {
+        margin:1% 9%;
+        border: solid #cfcfcf 17px;
+        height: 850px;
+        font-family: Arial, sans-serif;
     }
 
-    .contenues {
-        width: 100%;
+
+/* Block */
+    .block1 {
+        position: relative;
+        background: black;
+        top: -2.5%;
         height: 100%;
+        width: 60%;
+        color: #ffffff;
     }
+
+    .blockImage {
+        position: relative;
+        top: -102.5%;
+        right: -60%;
+        background-image: url("image test.jpg");
+        background-size: 100% 100%;
+        height: 100%;
+        width: 40%;
+        color: #ffffff;
+    }
+
+/* Text default */
+    .icone {
+        padding-top: 30%;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .titreIcone {
+        text-align: center;
+        font-size: 20px;
+        font-variant: all-small-caps;
+    }
+
+    .case1Text {
+        position: relative;
+        top: 20%;
+        left: 10%;
+    }
+
+    .case1Bouton1 {
+        border: solid #ffffff 3px;
+        padding: 10px 20px;
+        font-variant: all-small-caps;
+        font-weight: bold;
+        position: absolute;
+        top: 70%;
+        left: 10%;
+    }
+
+    .case1Bouton2 {
+         border: solid #ffffff 3px;
+         padding: 10px 20px;
+         font-variant: all-small-caps;
+         font-weight: bold;
+         position: absolute;
+         top: 70%;
+         left: 30%;
+     }
+
+
+    h1 {
+        font-variant: all-small-caps;
+    }
+
+/* Block Gauche contenus */
 
     .case1 {
         position: relative;
+        width: 67%;
+        height: 33%;
         background: #35bc7a;
-        width: 38%;
-        height: 150px;
-        padding-top: 1%;
-        padding-left: 2%;
-        padding-bottom: 5%;
+        background-size: 100%;
     }
 
     .case2 {
         position: absolute;
-        top: 10px;
-        left: 40%;
-        width: 12%;
-        height: 210px;
-        background: #ff9e00 ;
-        padding-top: 1%;
-        padding-left: 2%;
-        padding-bottom: 1%;
-    }
-
-    /*
-    .contenues {
-        margin: 1% 1% 1% 1%;
-    }
-
-    .boite1 {
-        width: 60%;
-        height: 100%;
-    }
-
-    .boite2 {
-        position: absolute;
-        right: 1%;
+        right: 0;
         top: 0;
-        height: 100%;
-        width: 40%;
-    }
-
-    .ligne1 {
-        width: 100%;
+        width: 33%;
         height: 33%;
+        background: #ff9e00;
+        background-size: 100%;
     }
 
-    .case1 {
+    .case3 {
+        position: relative;
+        background: #1e8bc4;
+        width: 33%;
+        height: 34%;
+        background-size: 100%;
+    }
+
+    .case4 {
+        position: absolute;
+        top: 33%;
+        left: 33%;
+        width: 34%;
+        height: 34%;
+        background: #f15a49;
+        background-size: 100%;
+    }
+
+    .case5 {
+        position: absolute;
+        top: 33%;
+        left: 67%;
+        width: 33%;
+        height: 34%;
         background: #35bc7a;
-        width: 58%;
-        height: 230px;
-        padding: 4% 4%;
+        background-size: 100%;
     }
 
-    */
+    .case6 {
+        position: relative;
+        width: 33%;
+        height: 33%;
+        background: #f86925;
+        background-size: 100%;
+    }
+
+    .case7 {
+        position: absolute;
+        top: 67%;
+        left: 33%;
+        width: 34%;
+        height: 33%;
+        background: #1e8bc4;
+        background-size: 100%;
+    }
+
+    .case8 {
+        position: absolute;
+        top: 67%;
+        left: 67%;
+        width: 33%;
+        height: 33%;
+        background: #f86925;
+        background-size: 100%;
+    }
+
+
+/* Autre */
+
+    .case2:hover, .case3:hover, .case4:hover, .case5:hover, .case6:hover, .case7:hover, .case8:hover {
+        color: black;
+        transition-duration: 0.5s;
+    }
+
+    .case1Bouton1:hover, .case1Bouton2:hover {
+        background: #ffffff;
+        color: #35bc7a;
+        border: solid #ffffff 3px;
+        border-radius: 60px;
+        transition-duration: 0.5s;
+    }
