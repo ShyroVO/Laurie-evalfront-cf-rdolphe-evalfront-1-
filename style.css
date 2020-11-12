@@ -1,40 +1,36 @@
-
-
-    body {
-        padding: 0;
-        margin: 0;
-    }
-
+body {
+    padding: 0;
+    margin: 0;
+}
 
 /* Block de Contenues */
-    .contenue {
-        margin:1% 9%;
-        border: solid #cfcfcf 17px;
-        height: 850px;
-        font-family: Arial, sans-serif;
-    }
-
+.contenue {
+    margin:1% 9%;
+    border: solid #cfcfcf 1em;
+    height: 54em;
+    font-family: Arial, sans-serif;
+}
 
 /* Block */
-    .block1 {
-        position: relative;
-        background: black;
-        top: -2.5%;
-        height: 100%;
-        width: 60%;
-        color: #ffffff;
-    }
+.block1 {
+    position: relative;
+    background: black;
+    top: -2.5%;
+    height: 100%;
+    width: 60%;
+    color: #ffffff;
+}
 
-    .blockImage {
-        position: relative;
-        top: -102.5%;
-        right: -60%;
-        background-image: url("image test.jpg");
-        background-size: 100% 100%;
-        height: 100%;
-        width: 40%;
-        color: #ffffff;
-    }
+.blockImage {
+    position: relative;
+    top: -102.5%;
+    right: -60%;
+    background-image: url("image test.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+    color: #ffffff;
+}
 
 /* Text default */
     .icone {
@@ -171,3 +167,4 @@
         border-radius: 60px;
         transition-duration: 0.5s;
     }
+
